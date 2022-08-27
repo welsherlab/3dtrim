@@ -6,8 +6,8 @@ trajectories and will locate matching pairs of tracking and imaging data
 and transform the raw data into co-registered image volumes with overlaid 
 trajectories. 
 
-For example, call function **‘Batch_Process_3DTrIm_final’** and select folder 
-**‘Fig 2A-E’**, the code will automatically find and match pairs of tracking 
+For example, call function **'Batch_Process_3DTrIm_final'** and select folder 
+**'Fig 2A-E TrIm data'**, the code will automatically find and match pairs of tracking 
 and imaging data corresponding to Fig 2A-E and process. 
 
 The resulting volume images and trajectory plots can be viewed independently 
@@ -15,14 +15,15 @@ or as overlays using the script files generated for Amira 2021.3 or newer.
 Additionally, the diffusion changepoint distribution of the trajectories is 
 analyzed and exported.
 
-
-
 If you find any bug or error in the package, please report the author at 
 the email address listed below. 
 
 Kevin Welsher, PhD<br>
 Duke University<br>
 Email: kevin.welsher@duke.edu
+
+## File description 
+Each **'Fig** TrIm data'** folder contains trajectories collected with the 3D Tracking and Imaging (3D-TrIm) microscope. The tracking data is contained in a *.tdms file in the main folder, and the imaging data is stored in a subfolder named after the corresponding figure in the manuscript.
 
 ## References
 ### TDMS Reader:
