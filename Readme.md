@@ -23,7 +23,7 @@ Duke University<br>
 Email: kevin.welsher@duke.edu
 
 ## File description 
-Each **'Fig** TrIm data'** folder contains trajectories collected with the 3D Tracking and Imaging (3D-TrIm) microscope. The tracking data is contained in a *.tdms file in the main folder, and the imaging data is stored in a subfolder named after the corresponding figure in the manuscript.
+Each 'Fig** TrIm data' folder contains trajectories collected with the 3D Tracking and Imaging (3D-TrIm) microscope. The tracking data is contained in a *.tdms file in the main folder, and the imaging data is stored in a subfolder named after the corresponding figure in the manuscript.
 
 ## References
 ### TDMS Reader:
